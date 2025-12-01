@@ -5,7 +5,7 @@ i=1
 
 while i<=n:
     name=input("Enter student name:")
-    marks=input("Enter student details marks in 3 sub")
+    marks=input("Enter student details of marks in required subjects : ")
     marks=marks.split(',')
     marks_tup=tuple(map(int,marks))
     students[name]=marks_tup
